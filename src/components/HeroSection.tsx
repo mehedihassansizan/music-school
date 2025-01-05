@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
@@ -18,7 +19,7 @@ function HeroSection() {
           journey today. Whether you're a beginner or looking to refine your
           skills, join us to unlock your true potential.
         </p>
-        <div className="mt-4">
+        <div className="mt-8">
           <Link href={"/courses"}>
             <Button
               borderRadius="1.75rem"
