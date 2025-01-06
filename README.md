@@ -17,4 +17,4 @@ bun dev
 This is a very simple project of next js. A simple fronted design. The whole project ui made with aceternity ui.
 
 😅Trying to write redame file
-🙏Forgive my mistakes
+---🙏Forgive my mistakes
