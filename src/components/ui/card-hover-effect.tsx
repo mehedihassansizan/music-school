@@ -52,6 +52,7 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+
             <Link href={`/courses/${item.slug}`}>Learn More</Link>
           </Card>
         </div>
