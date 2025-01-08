@@ -1,5 +1,6 @@
 import { CardHoverEffectDemo } from "@/components/FeaturedContent";
 import HeroSection from "@/components/HeroSection";
+import { Instructors } from "@/components/Instructors";
 import MusicSchoolTestimonials from "@/components/TestomonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUS";
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyChooseUs />
       <MusicSchoolTestimonials />
       <UpcomingWebinars />
+      <Instructors />
     </main>
   );
 }

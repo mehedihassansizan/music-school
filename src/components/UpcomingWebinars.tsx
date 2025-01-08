@@ -56,7 +56,7 @@ function UpcomingWebinars() {
   ];
 
   return (
-    <div className="p-12 pt-32 bg-gray-900">
+    <div className="p-12 pt-32 dark:bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
@@ -67,7 +67,7 @@ function UpcomingWebinars() {
           </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-3 gap-2">
+        <div className="mt-12 grid md:grid-cols-3  gap-2">
           {featuredWebinars.map((webinar) => (
             <div key={webinar.id} className="">
               <div className="w-full h-full relative  max-w-xs">
